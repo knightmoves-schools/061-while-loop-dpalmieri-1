@@ -3,8 +3,8 @@ let i = 0;
 
 function markAsDone(todos){
     while(i < todos.length){
-        i++
         todos[i] = 'done - ' + todos[i];
+        i++;
     }
     return todos;
 }
